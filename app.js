@@ -6,9 +6,9 @@ const port = process.env.PORT || 3000;
 
 const quotesData = require('./data.json');
 
-app.get('/', (req, res) => {
+app.get('/data', (req, res) => {
 
-    res.send("Hello World!");
+    res.send(quotesData);
 
 })
 
