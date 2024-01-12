@@ -391,7 +391,7 @@ const quotes = [
 
 app.get('/api/quotes', (req, res) => {
 
-    res.json({quotes});
+    res.send("Hello World");
 
 })
 
