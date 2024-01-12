@@ -388,7 +388,7 @@ const quotes = [
 
 ];
 
-app.get('/quotes', (req, res) => {
+app.get('quotes', (req, res) => {
 
     res.send({quotes});
 
